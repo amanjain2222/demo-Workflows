@@ -4,8 +4,8 @@ provider "azurerm" {
 }
 
          # An example resource that does nothing.
-resource "azurerm_resource_group" "my-resourseGroup" {
-  name     = "my-resourseGroup"
+resource "azurerm_resource_group" "my-resourceGroup" {
+  name     = "my-resourceGroup"
   location = "Australia East"
 }
 
