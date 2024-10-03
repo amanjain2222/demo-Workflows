@@ -15,6 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: production
 
+
     # Use the Bash shell regardless whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
     defaults:
       run:
@@ -25,7 +26,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
 
-    # Install the latest version of Terraform CLI and configure the Terraform CLI configuration file with a Terraform Cloud user API token
+    # Install the latest version of Terraform CLI and configure the Terraform CLI configuration file with a Terraform Cloud user API tokenh
     - name: Setup Terraform
       uses: hashicorp/setup-terraform@v1
       with:
